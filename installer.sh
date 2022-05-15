@@ -5,6 +5,7 @@
 ###########################################
 ###########################################
 #!/bin/sh
+wait
 echo
 rm -rf /etc/enigma2/jediplaylists/playlists.txt
 wait
