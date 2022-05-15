@@ -21,7 +21,7 @@ rm -rf /etc/enigma2/iptosat.conf
 wait
 rm -rf /etc/enigma2/ipaudio.json
 wait
-rm -rf /etc/enigma2/xstreamity/playlists.txtwait
+rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
 rm -f /etc/enigma2/playlists
 wait
