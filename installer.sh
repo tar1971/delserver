@@ -5,7 +5,6 @@
 ###########################################
 ###########################################
 #!/bin/sh
-echo
 # Clean up
 
 rm -rf '/etc/enigma2/jediplaylists/playlists.txt'> /dev/null 2>&1
@@ -41,10 +40,4 @@ rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
 sleep 2;
 exit
--------------------------------------------------------------------------------------------------------------------------------
-
-rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AJPan'  > /dev/null 2>&1
-			rm -rf './usr/lib/enigma2/python/Plugins/Extensions/AJPan' > /dev/null 2>&1
-			rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AJPanel'  > /dev/null 2>&1
-			rm -rf './usr/lib/enigma2/python/Plugins/Extensions/AJPanel' > /dev/null 2>&1
 
