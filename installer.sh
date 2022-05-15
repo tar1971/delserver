@@ -8,19 +8,19 @@
 
 #!/bin/sh
 wait
-echo
+echo ''
 rm -rf /etc/enigma2/jediplaylists/playlists.txt
 wait
-echo
+echo ''
 rm -rf /etc/tuxbox/config/CCcam.cfg
 wait
 echo
 rm -rf /etc/tuxbox/config/ncam.server
 wait
-echo
+echo ''
 rm -rf /etc/tuxbox/config/oscam.server
 wait
-echo
+echo ''
 rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
 echo
@@ -32,13 +32,13 @@ wait
 echo
 rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
-echo
+echo ''
 rm -rf /etc/enigma2/playlists
 wait
-echo
+echo ''
 rm -rf /etc/enigma2/playlist.e2pls
 wait
-echo
+echo ''
 rm -rf /etc/tsiplayer_xtream.conf
 wait
 sleep 2;
