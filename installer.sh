@@ -21,11 +21,11 @@ rm -rf /etc/enigma2/ipaudio.json
 wait
 rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
-rm -f /etc/enigma2/playlists
+rm -rf /etc/enigma2/playlists
 wait
-rm -f /etc/enigma2/playlist.e2pls
+rm -rf /etc/enigma2/playlist.e2pls
 wait
-rm -f /etc/tsiplayer_xtream.conf
+rm -rf /etc/tsiplayer_xtream.conf
 wait
 sleep 2;
 exit
