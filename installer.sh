@@ -5,8 +5,8 @@
 ###########################################
 ###########################################
 #!/bin/sh
-# Clean up
-
+                     # Clean up
+echo..
 rm -rf '/etc/enigma2/jediplaylists/playlists.txt'> /dev/null 2>&1
 wait
 rm -rf '/etc/tuxbox/config/CCcam.cfg'> /dev/null 2>&1
